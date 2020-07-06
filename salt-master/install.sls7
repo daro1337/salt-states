@@ -1,0 +1,7 @@
+install_saltmaster:
+  pkg.installed:
+    - pkgs:
+      - python3-pygit2
+      - salt-master
+      - salt-cloud
+       
