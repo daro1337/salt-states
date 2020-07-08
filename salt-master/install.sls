@@ -1,7 +1,9 @@
 install_saltmaster:
   pkg.installed:
     - pkgs:
-      - python3-pygit2
+      - python-pygit2
+      - python-pip
       - salt-master
       - salt-cloud
+      - salt-minion
        
